@@ -35,8 +35,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/david_lyangenda)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/david-lyangenda-623087151/)
 
-linkedinhandle)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
