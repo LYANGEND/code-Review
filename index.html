@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microverse survey form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div>
+    <h1 id=title>Microverse Survey form</h1>
+    <p id="description">thank you for taking time to help us improve the platform</p>
+    </div>
+    <div id="main">
+      <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Enter Your Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="Enter Your Email Address"><br>
+            <br>
+            <label id="number-label"><b>Age(optional): </b></label>
+            <input min="1" max="100" id="number" type="number" name="number" class="form" placeholder="Select Your Age">
+         </div>
+         <div id="dropdown-div"><br>
+          <label id="dropdown-label"><strong>What option best describes your current role? </strong></label><br>
+          <select id="dropdown" name="role-lang" class="form">
+              <option value="Select Current Role">Select Current Role</option>
+              <option value="Student">Student</option>
+              <option value="full-time-job">Full-Time Job</option>
+              <option value="full-time-learner">Full-Time Learner</option>
+              <option value="Prefer Not To Say">Prefer Not To Say</option>
+              <option value="Others">Others</option>
+          </select>
+       </div>
+       <div id="button-area">
+        <br>
+       <label id="job-label"><b>Would you Recommend Microverse to a friend?</b></label><br>
+       <input type="radio" class="radio-inline" name="gender" value="Definately" checked>Definately<br>
+       <input type="radio" class="radio-inline" name="gender" value="Maybe"> Maybe<br>
+       <input type="radio" class="radio-inline" name="gender" value="Not sure"> Not sure<br>
+     </div>
+     
+     <div id="dropdown-div"><br>
+      <label id="dropdown-label"><strong>What is your favorite feature at Microverse
+         </strong></label><br>
+      <select id="dropdown" name="role-lang" class="form">
+          <option value="Select  an optio ">Select an option</option>
+          <option value="Challlenges"> Challenges</option>
+          <option value="Projects">Projects</option>
+          <option value="Community">Community</option>
+          <option value="Open Source">Open Source</option>
+      </select>
+   </div>
+   <div id="button-area"><br><br>
+    <label id="os-label"><b>What would you like to see improved? (Check all that apply) </b></label><br>
+    <input type="checkbox" name="tech1" value="Front-end Projects"> Front-end Projects<br>
+    <input type="checkbox" name="tech2" value="Back-end Projects"> Back-end Projects<br>
+    <input type="checkbox" name="tech3" value="Data Visualization"> Data Visualization<br>
+    <input type="checkbox" name="tech3" value="Challenges"> Challenges<br>
+    <input type="checkbox" name="tech3" value="Open Source Community"> Open Source Community<br>
+    <input type="checkbox" name="tech3" value="Gitter help rooms"> Gitter help rooms<br>
+    <input type="checkbox" name="tech3" value="Videos"> Videos<br>
+    <input type="checkbox" name="tech3" value="Challenges"> Challenges<br>
+    <input type="checkbox" name="tech3" value="City Meetups"> City Meetups<br>
+    <input type="checkbox" name="tech3" value="Wiki"> Wiki<br>
+    <input type="checkbox" name="tech3" value="Forum"> Forum<br>
+    <input type="checkbox" name="tech3" value="Additional Courses"> Additional Courses<br>
+  </div>
+
+
+  <div id="ending"><br><br>
+    <label id="comments-label">Any comments or suggestions?</label><br>
+    <textarea style= height:120px;" class="form" placeholder="Enter Your Comment here..."></textarea><br><br>
+    <input id="submit" type="submit" class="form" name="submit">
+    </div>
+  </form>
+    </div>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
